@@ -1,0 +1,51 @@
+.skyjo-player-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skyjo-players {
+	width: 100%;
+}
+
+.skyjo-player-add-item{
+	border: solid 2px black;
+	border-radius: 10px;
+	background-color: white;
+	height: 200px;
+	width: 170px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	font-size: 50px;
+}
+
+.skyjo-player-button{
+	border: solid 2px black;
+	border-radius: 10px;
+	background-color: white;
+	height: 50px;
+	width: 170px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+

@@ -1,0 +1,9 @@
+.skyjo-scoreboard {
+	color: white;
+	background-color: #9d2933;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: auto;
+}
