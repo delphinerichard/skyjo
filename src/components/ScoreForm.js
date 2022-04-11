@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import '../styles/ScoreForm.css'
 
+ 
 function ScoreForm({players, addNewPlayer, id}) {
-    const [inputValue, setInputValue] = useState(0)
-
+    var [inputScoreValue, setInputScoreValue] = useState("")
     const newScore = (e) => {
-        setInputValue(e.target.value);
+        setInputScoreValue(e.target.value);
         const updatedList = [];
         players.forEach((player) => {
             if(player.id === id){
@@ -19,7 +19,7 @@ function ScoreForm({players, addNewPlayer, id}) {
         <div>
             <input
                 className='skyjo-form-input'
-                value={inputValue}
+                value={inputScoreValue}
                 onChange={(e) => newScore(e)}
             />
         </div>
