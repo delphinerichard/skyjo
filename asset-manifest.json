@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/skyjo/static/css/main.e3161ae2.css",
+    "main.js": "/skyjo/static/js/main.ce281cf2.js",
+    "static/js/787.92d17f6c.chunk.js": "/skyjo/static/js/787.92d17f6c.chunk.js",
+    "static/media/playerIcon.png": "/skyjo/static/media/playerIcon.da632f806e92f8f75423.png",
+    "static/media/logo2.png": "/skyjo/static/media/logo2.828ff51175d22fd9d197.png",
+    "index.html": "/skyjo/index.html",
+    "main.e3161ae2.css.map": "/skyjo/static/css/main.e3161ae2.css.map",
+    "main.ce281cf2.js.map": "/skyjo/static/js/main.ce281cf2.js.map",
+    "787.92d17f6c.chunk.js.map": "/skyjo/static/js/787.92d17f6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3161ae2.css",
+    "static/js/main.ce281cf2.js"
+  ]
+}
