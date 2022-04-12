@@ -36,11 +36,12 @@ export default function PlayerList({players, addNewPlayer, rounds, addNewRound})
         players.forEach((player) => {
             if(player.score){
                 scoreList.push(parseInt(player.score, 10))
+                player = {...player, score: ""}
+                updatedList.push(player)
             }else{
                 stop = true;
+                updatedList.push(player)
             }
-            player = {...player, score: ""}
-            updatedList.push(player)
         });
         if(!stop){
             window.location.reload();
@@ -49,6 +50,7 @@ export default function PlayerList({players, addNewPlayer, rounds, addNewRound})
             alert("Add a score for each player")
         }
         addNewPlayer(updatedList)
+        window.location.reload();
     });
 
     players.forEach((player) => {
@@ -65,7 +67,6 @@ export default function PlayerList({players, addNewPlayer, rounds, addNewRound})
             />);
     });
 
-    console.log("update", list)
     list.push(<li key='playerList'>
         {/* <button className='skyjo-player-add-item' onClick={() => addPlayer("Test")}>+</button> */}
         <button className='skyjo-player-add-item' onClick={togglePopup}>+</button>
